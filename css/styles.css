@@ -53,6 +53,14 @@ body {
   margin-bottom: 0
 }
 
+.main-characteristics figure {
+  text-align: right
+}
+
+.main-characteristics figure img {
+  width: 70%
+}
+
 .presentation-title {
   display: flex;
   flex-direction: row;
