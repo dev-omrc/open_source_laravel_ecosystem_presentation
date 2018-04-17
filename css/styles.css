@@ -66,6 +66,18 @@ body {
 
 .what-is p {
   max-width: 650px;
+  margin-bottom: 0;
+}
+.what-is figure{
+  text-align: right;
+}
+.what-is figure figcaption{
+  text-align: right;
+}
+.what-is figure img{
+  border-radius: 200px;
+  width: 20%;
+  align-self: center;
 }
 
 .who-is {
