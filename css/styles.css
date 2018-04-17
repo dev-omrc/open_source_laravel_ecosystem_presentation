@@ -80,15 +80,6 @@ body {
   align-self: center;
 }
 
-.who-is {
-  display: flex;
-  justify-content: center;
-}
-
-.who-is figure img {
-  border-radius: 200px;
-}
-
 .who-is figure figcaption {
   text-align: center;
 }
