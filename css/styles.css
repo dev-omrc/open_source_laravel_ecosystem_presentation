@@ -130,6 +130,9 @@ body {
   max-width: 650px;
 }
 
+.servers figure img{
+  width: 40%;
+}
 
 .requirements{
   text-align: justify;
