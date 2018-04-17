@@ -1,14 +1,22 @@
+.artisans p, .artisans-rotate, .framework p, .laravel-not-mvc figcaption, .requirements p, .use-framework-or-not p, .what-is p {
+  max-width: 650px
+}
+
+.extras figure img, .logo {
+  align-self: center
+}
+
 @font-face {
   font-family: Whitney;
-  src: url(./Whitney-Medium.ttf);
+  src: url(Whitney-Medium.ttf)
 }
 
 * {
-  font-family: "Whitney", sans-serif;
+  font-family: Whitney, sans-serif
 }
 
 body {
-  background-color: #fafafa;
+  background-color: #fafafa
 }
 
 .fallback-message {
@@ -19,15 +27,15 @@ body {
   margin: 20px auto;
   border: 1px solid #E4C652;
   border-radius: 10px;
-  background: #EEDC94;
+  background: #EEDC94
 }
 
 .fallback-message p {
-  margin-bottom: 10px;
+  margin-bottom: 10px
 }
 
 .impress-supported .fallback-message {
-  display: none;
+  display: none
 }
 
 .step {
@@ -36,132 +44,159 @@ body {
   width: 900px;
   height: 850px;
   margin: 80px auto;
-  padding: 60px 60px;
+  padding: 60px;
   font-size: 30px;
-  letter-spacing: -1px;
+  letter-spacing: -1px
+}
+
+.main-characteristics p, .what-is p {
+  margin-bottom: 0
 }
 
 .presentation-title {
   display: flex;
   flex-direction: row;
   width: 1000px;
-  height: 1000px;
+  height: 1000px
 }
 
 .title {
   font-size: 150px;
-  width: 1000px;
+  width: 1000px
 }
 
 .logo {
-  align-self: center;
   width: 40%;
   margin-left: -500px;
-  margin-top: -75px;
+  margin-top: -75px
+}
+
+.demo, .main-characteristics .characteristics-list {
+  margin: 0
 }
 
 .what-is {
-  text-align: justify;
+  text-align: justify
 }
 
-.what-is p {
-  max-width: 650px;
-  margin-bottom: 0;
+.what-is figure, .what-is figure figcaption {
+  text-align: right
 }
-.what-is figure{
-  text-align: right;
+
+.framework, .laravel-not-mvc, .main-characteristics, .use-framework-or-not {
+  text-align: justify
 }
-.what-is figure figcaption{
-  text-align: right;
-}
-.what-is figure img{
+
+.what-is figure img {
   border-radius: 200px;
-  width: 20%;
+  width: 20%
 }
 
-.main-characteristics {
+.use-framework-or-not figure {
+  text-align: right
+}
+
+.use-framework-or-not .ask-framework {
+  width: 20%
+}
+
+.why-use {
+  text-align: justify
+}
+
+.why-use figure {
+  text-align: right
+}
+
+.artisans, .artisans-rotate {
+  text-align: justify
+}
+
+.why-use figure img {
+  width: 50%
+}
+
+.ranking figure {
+  text-align: center
+}
+
+.servers figure img {
+  width: 40%
+}
+
+.requirements {
   text-align: justify;
+  display: flex;
+  flex-direction: row
 }
 
-.main-characteristics p {
-  margin-bottom: 0;
+.requirements figure {
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+  height: 50%
 }
 
-.main-characteristics .characteristics-list {
-  margin: 0;
+.requirements figure img {
+  width: 50%;
+  align-self: center
 }
 
-.framework{
-  text-align: justify;
-}
-.framework p{
-  max-width: 650px;
-}
-
-.laravel-not-mvc{
-  text-align: justify;
-}
-.laravel-not-mvc figcaption{
-  max-width: 650px;
-}
-
-.use-framework-or-not{
-  text-align: justify;
-}
-.use-framework-or-not  p{
-  max-width: 650px
-}
-.why-use{
-  text-align: justify;
-}
-
-.artisans{
-  text-align: justify;
-
-}
-.artisans p{
-  max-width: 650px;
-}
-
-.artisans-rotate{
-  text-align: justify;
-}
-.artisans-rotate {
-  max-width: 650px;
-}
-
-.servers figure img{
-  width: 40%;
-}
-
-.requirements{
-  text-align: justify;
-}
-.requirements p{
-  max-width: 650px;
-}
-
-.installation code{
+.installation code {
   font-family: monospace;
-  font-size: 25px;
+  font-size: 25px
 }
 
-.demo{
-  margin: 0;
+.official-packages {
+  display: flex;
+  flex-direction: row
+}
+
+.official-packages figure {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 40%;
+  height: 40%
+}
+
+.official-packages figure img {
+  width: 60%
+}
+
+.extras {
+  display: flex;
+  flex-direction: row
+}
+
+.extras figure {
+  width: 50%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end
+}
+
+.demo {
   padding: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-.demo code{
-  font-family: monospace;
-  font-size: 150px;
+  align-items: center
 }
 
-.thanks img{
-  width: 70%;
-  display: none;
+.demo code {
+  font-family: monospace;
+  font-size: 150px
 }
-.thanks.active >img{
-  display: block;
+
+.thanks img {
+  width: 70%;
+  display: none
+}
+
+.thanks.active>img {
+  display: block
 }
