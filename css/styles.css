@@ -2,6 +2,17 @@
   max-width: 650px
 }
 
+.artisans-rotate figure {
+  text-align: right;
+  margin: 0;
+  padding: 0
+}
+
+.artisans-rotate figure img {
+  width: 50%;
+  border-radius: 50px
+}
+
 .extras figure img, .logo {
   align-self: center
 }
@@ -77,6 +88,10 @@ body {
   width: 40%;
   margin-left: -500px;
   margin-top: -75px
+}
+
+.license {
+  font-size: small
 }
 
 .demo, .main-characteristics .characteristics-list {
@@ -200,11 +215,11 @@ body {
   font-size: 150px
 }
 
-.thanks img {
+.thanks figure img {
   width: 70%;
   display: none
 }
 
-.thanks.active>img {
+.thanks.active>figure>img {
   display: block
 }
